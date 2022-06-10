@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.akn.projectcomp202.log_in_controller">
+   <children>
+      <Label layoutX="50.0" layoutY="125.0" prefHeight="25.0" prefWidth="100.0" text="User Name / ID :" />
+      <Label layoutX="50.0" layoutY="175.0" prefHeight="25.0" prefWidth="100.0" text="Password :" />
+      <PasswordField fx:id="passwordfield" layoutX="150.0" layoutY="175.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="50.0" layoutY="50.0" prefHeight="38.0" prefWidth="115.0" text="Welcome!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="log_in_button" layoutX="214.0" layoutY="234.0" mnemonicParsing="false" onAction="#girisyap" text="Log in" />
+      <Button fx:id="sign_up_button" layoutX="290.0" layoutY="234.0" mnemonicParsing="false" onAction="#kayitol" text="Sign up" />
+      <Label layoutX="271.0" layoutY="238.0" text="or" />
+      <TextField fx:id="user_namefield" layoutX="150.0" layoutY="125.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="-1.0" layoutY="95.0" prefHeight="17.0" prefWidth="400.0" textFill="RED" />
+   </children>
+</Pane>
