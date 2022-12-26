@@ -1,4 +1,4 @@
-# stockmanagement School Project
+# COMP 201 Stock Management Term Project
 
 ![Login](login.png?raw=true "Login")
 <br>
